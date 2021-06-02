@@ -14,3 +14,42 @@
 
   <!-- Template Main JS File -->
   <script src="{{asset("assets/js/main.js")}}"></script>
+  <script>
+    // to change the active tab
+    var current = {!! json_encode($current) !!};
+
+    $.each($('.nav-menu').find('ul').find('li'), function( index ) {
+      $(this).removeClass('active');
+    });
+
+    $.each($('.mobile-nav').find('ul').find('li'), function( index ) {
+      $(this).removeClass('active');
+    });
+
+    if(current == 'home')
+    {
+      $('.nav-menu').find('ul').find('li.home-menu').addClass('active');
+      $('.mobile-nav').find('ul').find('li.home-menu').addClass('active');
+    }
+    else if(current == 'about')
+    {
+      $('.nav-menu').find('ul').find('li.about-menu').addClass('active');
+      $('.mobile-nav').find('ul').find('li.about-menu').addClass('active');
+    }
+    else if(current == 'contact')
+    {
+      $('.nav-menu').find('ul').find('li.contact-menu').addClass('active');
+      $('.mobile-nav').find('ul').find('li.contact-menu').addClass('active');
+    }
+    else if(current == 'service')
+    {
+      $('.nav-menu').find('ul').find('li.service-menu').addClass('active');
+      $('.mobile-nav').find('ul').find('li.service-menu').addClass('active');
+    }
+    else
+    {
+      $('.nav-menu').find('ul').find('li.home-menu').addClass('active');
+      $('.mobile-nav').find('ul').find('li.home-menu').addClass('active');
+    }
+    
+  </script>

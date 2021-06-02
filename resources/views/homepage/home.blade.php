@@ -24,7 +24,7 @@
                     <div class="carousel-content animate__animated animate__fadeInUp">
                         <h2>CCTV Surveillance System</h2>
                         <p>The systems are best defined by the types of cameras used. There are two common types of cameras in use today: Analog and IP-based cameras. With increase of technology IP based cameras are highly in demand but Analog cameras has not lost the significance either due to its cost effectiveness and comparable efficiency and quality.</p>
-                        {{-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> --}}
+                        <div class="text-center"><a href="{{route('cctv-view')}}" class="btn-get-started">Read More</a></div>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                     <div class="carousel-content animate__animated animate__fadeInUp">
                         <h2>Home/Commercial Security Alarm System</h2>
                         <p>As the technology is advancing day by day therefore with the usage of upgraded technology, there comes a complete set to protect your home or your commercial premises at the moment of theft or at the moment of any external insurgency.</p>
-                        {{-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> --}}
+                        <div class="text-center"><a href="{{route('home-security-view')}}" class="btn-get-started">Read More</a></div>
                     </div>
                 </div>
             </div>
@@ -73,13 +73,13 @@
                     <h3>One Stop Solution for all Electronic Security Concerns viz. Vehicle Tracking System, CCTV Surveillance, Access Control, Attendance System, Home Security, Commercial Security, Fire Fighting Equipments and many more...</h3>
 					<br><br>
                     <p class="h5">
-                        HAVE YOU TAKEN SECURITY INSURANCE FOR YOUR HOME/ORGANIZATION/VEHICLE ? ? ?<br>
+                        <span style="color: #c51618;">HAVE YOU TAKEN SECURITY INSURANCE FOR YOUR HOME/ORGANIZATION/VEHICLE ? ? ?<br>
 						<br>
                         IF NOT<br>
 						<br>
-                        THEN, WHAT ARE YOU WAITING FOR ?  ?  ?<br>
+                        THEN, WHAT ARE YOU WAITING FOR ?  ?  ?</span><br>
 						<br>
-                        Connect with our Security Experts and get the customized solutions.
+                        <b>Connect with our Security Experts and get the customized solutions</b>.
                     </p>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                         <div class="icon">
                         	<img src="{{asset('images/cctv-image.png')}}" class="img-fluid"/>
                         </div>
-                        <h4><a href="">CCTV Surveillance System</a></h4>
+                        <h4><a href="{{route('cctv-view')}}">CCTV Surveillance System</a></h4>
                         <p>The systems are best defined by the types of cameras used. There are two common types of cameras in use today: Analog and IP-based cameras. With increase of technology IP based cameras are highly in demand but Analog cameras has not lost the significance either due to its cost effectiveness and comparable efficiency and quality.</p>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                         <div class="icon">
 							<img src="{{asset('images/HSS-image.jpg')}}" class="img-fluid"/>
                         </div>
-                        <h4><a href="">Home/Commercial Security Alarm System</a></h4>
+                        <h4><a href="{{route('home-security-view')}}">Home/Commercial Security Alarm System</a></h4>
                         <p>As the technology is advancing day by day therefore with the usage of upgraded technology, there comes a complete set to protect your home or your commercial premises at the moment of theft or at the moment of any external insurgency.</p>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                         <div class="icon">
 							<img src="{{asset('images/Biometric-image.jpg')}}" class="img-fluid"/>
                         </div>
-                        <h4><a href="">Access Control System</a></h4>
+                        <h4><a href="{{route('access-control-system-view')}}">Access Control System</a></h4>
                         <p>Access control systems are the electronic systems that are designed to control through a network and they should have an access to a network. Access Control System recognizes authenticates and authorizes entry of a person to enter into the premise thereby giving complete protection ensuring security with the system.</p>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                         <div class="icon">
 							<img src="{{asset('images/misc-image.jpg')}}" class="img-fluid"/>
                         </div>
-                        <h4><a href="">Miscellaneous</a></h4>
+                        <h4><a href="{{route('misc-view')}}">Miscellaneous</a></h4>
                         <p>There are numerous other security gadgets and equipments which are of high use in day to day routine. We have a huge range of such kind of unique and innovative products. Our Research and Development Wing is continuously working to provide the best gadgets at best possible rates.</p>
                     </div>
                 </div>

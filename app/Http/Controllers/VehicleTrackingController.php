@@ -19,6 +19,6 @@ class VehicleTrackingController extends Controller
 
     public function contactUsFormMailSend(Request $request)
     {
-        return view('services.vehicle-tracking', ['page' => 'vehicle-tracking']);
+        return view('services.vehicle-tracking', ['page' => 'vehicle-tracking', 'current' => 'service']);
     }
 }

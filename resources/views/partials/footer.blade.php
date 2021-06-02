@@ -30,10 +30,10 @@
                 <h4>Our Services</h4>
                 <ul>
                 <li><i class="bx bx-chevron-right"></i> <a href="{{route('vehicle-tracking-view')}}">Vehicle Tracking System</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="javascript:;">CCTV Surveillance System</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="javascript:;">Home/Commercial Security Alarm System</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="javascript:;">Access Control System</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="javascript:;">Miscellaneous</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="{{route('cctv-view')}}">CCTV Surveillance System</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="{{route('home-security-view')}}">Home/Commercial Security Alarm System</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="{{route('access-control-system-view')}}">Access Control System</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="{{route('misc-view')}}">Miscellaneous</a></li>
                 </ul>
             </div>
 
@@ -55,7 +55,7 @@
             Copyright &copy; 2021 <strong><span>{{config("constants.brand.company_full_name")}}</span></strong>.
             </div>
             <div class="credits">
-                All Rights Reserved. Designed by <a href="https://www.linkedin.com/in/abhishek-shukla-342151184/" target="_blank">Abhishek Shukla</a>
+                All Rights Reserved. Designed by <a href="https://github.com/abhismart8" target="_blank" style="font-size: 13px !important;">ABHISHEK SHUKLA</a>
             </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
